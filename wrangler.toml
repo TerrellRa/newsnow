@@ -3,9 +3,10 @@ name = "worker"  # 修改为"worker"
 pages_build_output_dir = "dist/output/public"
 compatibility_date = "2025-03-12"
 
-[[kv_namespaces]]  # 配置 KV 存储
-binding = "TODO"  # 这是在 Worker 中使用的 KV 存储的别名
-id = "8b64f36f20f343faaf39108caf37c708"  # 这是您的 KV 数据库的 ID
+[[d1_databases]]  # 用于配置 D1 数据库
+binding = "NEWSNOW_DB"  # 这是在 Worker 中使用的数据库别名
+database_name = "newsnow"  # 这是您的数据库名称
+database_id = "d39d539a-3fb7-4b9b-b220-99540504c9ef"  # 这是您的 D1 数据库的 ID
 
 
 
