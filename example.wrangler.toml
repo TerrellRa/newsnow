@@ -6,5 +6,4 @@ compatibility_date = "2025-03-12"
 binding = "NEWSNOW_DB"
 database_name = "newsnow-db"
 database_id = ""
-# 配置 entry-point
-entry-point = "src/main.tsx"  # 这里设置为您的入口文件
+entry-point = "src/main.tsx" 
