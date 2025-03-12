@@ -3,6 +3,6 @@ pages_build_output_dir = "dist/output/public"
 compatibility_date = "2025-03-12"
 
 [[kv_namespaces]]
-binding = "TODO"  # 这是在 Worker 中用来引用 KV 的名称
-id = "8b64f36f20f343faaf39108caf37c708"  # 这是 KV 数据库的 ID
-
+kv_namespaces = [
+  { binding = "TODO", id = "8b64f36f20f343faaf39108caf37c708" }
+]
