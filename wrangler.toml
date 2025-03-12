@@ -4,8 +4,8 @@ pages_build_output_dir = "dist/output/public"
 compatibility_date = "2025-03-12"
 
 [[kv_namespaces]]  # 配置 KV 存储
-kv_namespaces = [
-  { binding = "TODO", id = "06779da69404b431db6e566b4846d64db", preview_id = "06779da69404b431db6e566b4846d64db" }
-]
+binding = "TODO"  # 这是在 Worker 中使用的 KV 存储的别名
+id = "8b64f36f20f343faaf39108caf37c708"  # 这是您的 KV 数据库的 ID
+
 
 
